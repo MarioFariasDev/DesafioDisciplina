@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Desafio Disciplina 7 Dias</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "firebase/app";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDxAClpsEoeiAXEJnQJWo-S6YmfpJTBBOw",
+            authDomain: "desafiodisciplina7d.firebaseapp.com",
+            projectId: "desafiodisciplina7d",
+            storageBucket: "desafiodisciplina7d.firebasestorage.app",
+            messagingSenderId: "296947340276",
+            appId: "1:296947340276:web:21d8d19786bf2f1c7ddfa1"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+<div class="container">
+    <h1>Desafio Disciplina <span>7 Dias</span></h1>
+    <p class="sub">Corpo • Mente • Espírito • Conhecimento</p>
+
+    <div class="day-selector">
+        <label for="day">Dia:</label>
+        <select id="day">
+            <option value="1">Dia 1</option>
+            <option value="2">Dia 2</option>
+            <option value="3">Dia 3</option>
+            <option value="4">Dia 4</option>
+            <option value="5">Dia 5</option>
+            <option value="6">Dia 6</option>
+            <option value="7">Dia 7</option>
+        </select>
+    </div>
+
+    <ul class="task-list" id="taskList"></ul>
+
+    <div class="progress">
+        <p id="progressText">Progresso: 0 / 10</p>
+        <div class="bar">
+            <div id="barFill"></div>
+        </div>
+    </div>
+
+    <button id="resetBtn">Reiniciar Dia</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+

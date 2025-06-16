@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ranking do Desafio</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "firebase/app";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+    apiKey: "AIzaSyDxAClpsEoeiAXEJnQJWo-S6YmfpJTBBOw",
+    authDomain: "desafiodisciplina7d.firebaseapp.com",
+    projectId: "desafiodisciplina7d",
+    storageBucket: "desafiodisciplina7d.firebasestorage.app",
+    messagingSenderId: "296947340276",
+    appId: "1:296947340276:web:21d8d19786bf2f1c7ddfa1"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+<div class="container">
+    <h1>🏆 Ranking Geral</h1>
+    <p class="sub">Participantes que completaram os 7 dias do desafio</p>
+
+    <table id="rankingTable">
+        <thead>
+        <tr>
+            <th>🏅 Posição</th>
+            <th>👤 Nome</th>
+            <th>✅ Dias 100%</th>
+        </tr>
+        </thead>
+        <tbody id="rankingBody"></tbody>
+    </table>
+
+    <a href="index.html" style="display: block; text-align: center; margin-top: 20px;">← Voltar para o desafio</a>
+</div>
+
+<script src="ranking.js"></script>
+</body>
+</html>
