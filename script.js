@@ -1,14 +1,13 @@
 const tasks = [
-    "🧘 5 minutos de silêncio intencional",
-    "🙏 Orar por 5 minutos com intenção",
-    "📖 Ler 1 capítulo da Bíblia",
+    "🧘 Acordar entre 5h-6h",
+    "🙏 Orar por 5 minutos",
+    "📖 Ler 1 capítulo de Provérbios da Bíblia",
     "🧠 Escrever 3 coisas pelas quais é grato",
     "🏃‍♀️ Fazer 30-60min de atividade física",
     "💧 Beber pelo menos 2L de água",
     "🍎 Comer limpo (sem açúcar/refri)",
     "📚 Estudar/ler por 30 minutos",
-    "📝 Anotar 1 aprendizado ou versículo do dia",
-    "📱 Não usar o celular após 22h
+    "📱 Não usar o celular após 22h",
     "📸 Postar 1 story com #DesafioRunVision7D"
 ];
 
