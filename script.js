@@ -8,7 +8,8 @@ const tasks = [
     "🍎 Comer limpo (sem açúcar/refri)",
     "📚 Estudar/ler por 30 minutos",
     "📝 Anotar 1 aprendizado ou versículo do dia",
-    "📸 Postar 1 story com #DesafioDisciplina7D"
+    "📱 Não usar o celular após 22h
+    "📸 Postar 1 story com #DesafioRunVision7D"
 ];
 
 const taskList = document.getElementById("taskList");
